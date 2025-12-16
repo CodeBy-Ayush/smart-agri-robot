@@ -112,7 +112,7 @@ export default function FarmerDashboard() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      {/* HEADER */}
+      {/* HEADERs */}
       <div className="flex justify-between items-end">
         <div>
           <h1 className="text-4xl font-extrabold text-slate-800">
@@ -137,7 +137,7 @@ export default function FarmerDashboard() {
 
       {/* METRICS */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {/* WEATHER */}
+        {/* WEATHERs For 5 Days */}
         <div className="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl p-6 text-white shadow-lg">
           <p className="text-blue-100 font-medium">Live Weather</p>
           <h2 className="text-4xl font-bold mt-2">
@@ -165,7 +165,7 @@ export default function FarmerDashboard() {
           </p>
         </div>
 
-        {/* ROBOT BATTERY */}
+        {/* ROBOT BATTERY Status */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
           <p className="text-slate-500 font-medium">Robot Battery</p>
           <h2 className="text-3xl font-bold text-slate-800">
@@ -176,7 +176,7 @@ export default function FarmerDashboard() {
           </p>
         </div>
 
-        {/* SOIL STATUS */}
+        {/* SOIL STATUS Shows */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
           <p className="text-slate-500 font-medium">Soil Status</p>
           <h2 className="text-3xl font-bold text-slate-800">
