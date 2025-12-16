@@ -55,7 +55,7 @@ export default function AdminDashboard() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      {/* Header */}
+      {/* Headers */}
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-extrabold text-slate-800">
@@ -71,7 +71,7 @@ export default function AdminDashboard() {
         </span>
       </div>
 
-      {/* Stats */}
+      {/* Stats of Farmer */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Total Farmers */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
@@ -118,7 +118,7 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        {/* System Health */}
+        {/* Systems Healths */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
           <div className="p-4 bg-red-100 text-red-600 rounded-lg">
             <AlertTriangle size={24} />
@@ -134,7 +134,7 @@ export default function AdminDashboard() {
         </div>
       </div>
 
-      {/* Recent Activity */}
+      {/* Recent Activities */}
       <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
         <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
           <TrendingUp size={20} className="text-blue-500" /> Recent Activity
