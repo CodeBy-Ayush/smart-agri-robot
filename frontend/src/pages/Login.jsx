@@ -17,7 +17,7 @@ export default function Login({ onLogin }) {
     const [error, setError] = useState("");
     const navigate = useNavigate();
 
-    // Current background image based on selected role
+    // Current background image based on selected roles
     const currentBg = loginRole === 'farmer' ? farmerBg : adminBg;
 
     const handleChange = e => setForm({...form, [e.target.name]: e.target.value });
@@ -34,7 +34,7 @@ export default function Login({ onLogin }) {
                 return;
             }
 
-            // LocalStorage updates
+            // LocalStorages updates
             localStorage.setItem("token", res.data.token);
             localStorage.setItem("role", actualRole);
             localStorage.setItem("username", res.data.user.username);
@@ -137,7 +137,7 @@ export default function Login({ onLogin }) {
                                        border border-transparent transition-all duration-300"
                         />
                     </div>
-
+{/*Shows For Submissions Button For Farmers  */}
                     <button
                         type="submit"
                         className={`w-full py-3 font-extrabold rounded-xl shadow-xl transform transition duration-300 hover:scale-[1.02] text-white uppercase tracking-wider
