@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { LayoutDashboard, CloudSun, Map, Bot, FileText, LogOut } from 'lucide-react';
 
-// ✅ Yahan { onLogout } prop receive kiya
+// ✅ Here { onLogout } prop received
 const Sidebar = ({ onLogout }) => {
   const location = useLocation();
   
@@ -36,7 +36,7 @@ const Sidebar = ({ onLogout }) => {
       </nav>
 
       <div className="border-t border-slate-700 pt-4 mt-auto">
-        {/* ✅ Yahan onClick={onLogout} add kiya */}
+        {/* ✅ Here onClick={onLogout} add  */}
         <button 
           onClick={onLogout}
           className="flex w-full items-center gap-3 p-3 text-red-400 hover:bg-slate-800 hover:text-red-300 rounded-lg transition-colors"
