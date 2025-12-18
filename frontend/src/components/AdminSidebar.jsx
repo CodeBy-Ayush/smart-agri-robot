@@ -5,7 +5,7 @@ import { LayoutDashboard, Users, ClipboardList, Activity, Settings, LogOut,BarCh
 const AdminSidebar = ({ onLogout }) => {
   const location = useLocation();
   
-  // AdminSidebar.jsx ke menuItems update karo:
+  // AdminSidebar.jsx  menuItems updates : 
 const menuItems = [
     { name: 'Overview', path: '/admin-dashboard', icon: <LayoutDashboard size={20} /> },
     { name: 'Mission Control', path: '/admin-dashboard/missions', icon: <ClipboardList size={20} /> },
