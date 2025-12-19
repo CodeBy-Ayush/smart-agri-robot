@@ -37,7 +37,7 @@ const CropRecommendation = () => {
     setLoading(false);
   }
 };
-
+//Crop Recommendation
   return (
     <div className="space-y-6 animate-fade-in">
       
