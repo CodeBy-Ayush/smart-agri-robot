@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import AdminSidebar from '../components/AdminSidebar';
-
+//Layout of Admin
 const AdminLayout = ({ onLogout }) => {
   return (
     <div className="flex bg-slate-100 min-h-screen font-sans">
