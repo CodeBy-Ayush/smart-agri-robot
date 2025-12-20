@@ -9,7 +9,8 @@ import asser from "../image/asser";
 const farmerBg = `url(${asser.farm})`;
 const adminBg = `url(${asser.farrr})`;
 
-// ------------------------------------
+// --------------------------------------
+//Login Page
 
 export default function Login({ onLogin }) {
     const [loginRole, setLoginRole] = useState("farmer");
