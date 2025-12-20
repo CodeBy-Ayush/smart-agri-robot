@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { Leaf, User, Mail, Lock } from "lucide-react"; // New Icons
+import { Leaf, User, Mail, Lock } from "lucide-react"; // New Icon
 
 export default function Register() {
     const [form, setForm] = useState({
@@ -28,7 +28,8 @@ export default function Register() {
             setError(msg);
         }
     };
-
+    
+    //Register Page
     return ( 
         <div 
             className="min-h-screen flex items-center justify-center bg-cover bg-center relative p-4"
