@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//Select The ZOnes
 const MissionSchema = new mongoose.Schema({
     farmer: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
     missionName: { type: String, required: true },
