@@ -1,3 +1,4 @@
+//Weather Plan For Farming 
 import React, { useState, useEffect } from "react";
 import { CloudRain, Wind, Droplets, Thermometer, AlertTriangle, Calendar } from "lucide-react";
 import axios from "axios";
@@ -7,7 +8,7 @@ const WeatherPage = () => {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState([]);
 
-  // Fetch current weather
+  // Fetch current weather on Weather APi
   const loadWeather = async () => {
     try {
       const res = await axios.get(
@@ -19,7 +20,7 @@ const WeatherPage = () => {
     }
   };
 
-  // Fetch forecast
+  // Fetch forecast For 5 Days
   const loadForecast = async () => {
     try {
       const res = await axios.get(
