@@ -1,3 +1,4 @@
+//Robot Dashboard Simulation Done BY Frontend logic Only
 import React, { useState, useEffect, useRef } from "react";
 import {
   Bot,
@@ -49,7 +50,7 @@ const RobotDashboard = () => {
       if (res.data.robot?.battery != null) {
         setBattery(res.data.robot.battery);
       }
-
+  //   ----------------------------------------
       if (res.data.mission) {
         const m = res.data.mission;
         const readableMode =
