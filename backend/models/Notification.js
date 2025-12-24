@@ -1,4 +1,4 @@
-//Notification System Backend
+//Notification System Backend From Farmer Dashboard And Admin
 const mongoose = require("mongoose");
 
 const NotificationSchema = new mongoose.Schema({
