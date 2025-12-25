@@ -1,3 +1,4 @@
+//Mission Planner
 import React, { useState } from 'react';
 import { Sprout, Scissors, CheckCircle, AlertCircle, MapPin } from 'lucide-react';
 import axios from 'axios';
@@ -113,7 +114,7 @@ const MissionPlanner = () => {
             </div>
           </div>
 
-          {/* Mission Details Input */}
+          {/* ----------Mission Details Input ----- --------------*/}
           <div className="bg-white p-6 rounded-2xl shadow-sm border">
 
             <label className="text-sm font-bold">Mission Name</label>
