@@ -1,3 +1,4 @@
+//Schema of Robot Dashboard  using Mnogoose
 const mongoose = require("mongoose");
 
 const RobotSchema = new mongoose.Schema({
