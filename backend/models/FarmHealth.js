@@ -1,4 +1,5 @@
 // DataBase OF far,er Health
+//Schema For farm health  using mongoose
 const mongoose = require("mongoose");
 
 const FarmHealthSchema = new mongoose.Schema({
