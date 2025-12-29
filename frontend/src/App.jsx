@@ -1,3 +1,4 @@
+// APP.JSX This all components render and import each file to run this frontend
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
