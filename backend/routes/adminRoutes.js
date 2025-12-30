@@ -1,3 +1,4 @@
+// All connections is here only
 // backend/routes/adminRoutes.js
 const express = require("express");
 const router = express.Router();
@@ -77,7 +78,7 @@ router.get("/activity", auth, isAdmin, async(req, res) => {
     }
 });
 
-// ---------------- MISSIONS LIST (for Mission Control) ----------------
+// ---------------- MISSIONS LIST (for Mission Controls) ----------------
 // GET /api/admin/missions
 router.get("/missions", auth, isAdmin, async(req, res) => {
     try {
