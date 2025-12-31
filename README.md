@@ -3,7 +3,7 @@
 A full-stack web application that automates agricultural missions using robotics and AI.  
 Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crops.
 
----
+---------------------------------------------------------------------------------------------
 
 ## 🚀 Features
 
