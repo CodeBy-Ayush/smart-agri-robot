@@ -26,7 +26,7 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
-// Auto Admin create
+// Auto Admin create  (admin IS Fixed)
 mongoose.connection.once("open", async() => {
     try {
         const adminEmail = "admin@gmail.com";
