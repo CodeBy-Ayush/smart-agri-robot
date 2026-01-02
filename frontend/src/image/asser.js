@@ -1,3 +1,4 @@
+//imgages Link
 import farrr from './far.jpg';
 import adminss from './adm.jpg';
 
