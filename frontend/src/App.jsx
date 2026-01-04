@@ -2,18 +2,18 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
-// Auth Pages
+// Auth Page
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 
-// Farmer Pages
+// Farmer Page
 import FarmerDashboard from "./pages/FarmerDashboard";
 import MissionPlanner from "./pages/farmer/MissionPlanner";
 import WeatherPage from "./pages/farmer/WeatherPage";
 import CropRecommendation from "./pages/farmer/CropRecommendation";
 import RobotDashboard from "./pages/farmer/RobotDashboard";
 
-// Admin Pages
+// Admin Page
 import AdminDashboard from "./pages/AdminDashboard";
 import MissionControl from "./pages/admin/MissionControl";
 import UserManagement from "./pages/admin/UserManagement";
