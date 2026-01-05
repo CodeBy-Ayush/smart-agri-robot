@@ -1,11 +1,10 @@
 const mongoose = require("mongoose");
-//Select The ZOnes
 const MissionSchema = new mongoose.Schema({
     farmer: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
     missionName: { type: String, required: true },
     missionType: { type: String, enum: ["planting", "weeding", "surveying"], required: true },
     zones: [{ type: String }], // ["Zone 1", "Zone 3"]
-    fieldName: { type: String }, // For display
+    fieldName: { type: String }, // For display The Area
     priority: { type: String, enum: ["Low", "Medium", "High"], default: "Medium" },
 
     status: {
