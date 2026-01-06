@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { Leaf, User, Mail, Lock } from "lucide-react"; // New Icon
+import { Leaf, User, Mail, Lock } from "lucide-react"; // New Icons
 
 export default function Register() {
     const [form, setForm] = useState({
