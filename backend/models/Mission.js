@@ -1,3 +1,4 @@
+//Mission Page
 const mongoose = require("mongoose");
 const MissionSchema = new mongoose.Schema({
     farmer: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
