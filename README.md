@@ -1,4 +1,4 @@
-# 🌱 Smart Agricultural Robot Automation Systems
+# 🌱 Smart Agricultural Robot Automation System
 
 A full-stack web application that automates agricultural missions using robotics and AI.  
 Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crops.
@@ -19,7 +19,7 @@ Farmers can plan missions, admins approve them, robots execute tasks, and AI rec
 - Auto-assign idle robots
 - Monitor system statistics
 
-### 🤖 Robot Simulations
+### 🤖 Robot Simulation
 - Grid-based robot movement
 - Battery consumption
 - Task execution (weeding/planting)
@@ -48,7 +48,7 @@ Farmers can plan missions, admins approve them, robots execute tasks, and AI rec
 - Express.js
 - MongoDB
 - Mongoose
-- JWT Authentication
+- JWT Authentications
 
 ### AI
 - Google Gemini API (gemini-2.5-flash)
