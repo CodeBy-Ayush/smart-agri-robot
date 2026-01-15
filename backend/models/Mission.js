@@ -1,4 +1,3 @@
-//Mission Page
 const mongoose = require("mongoose");
 const MissionSchema = new mongoose.Schema({
     farmer: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
@@ -14,7 +13,7 @@ const MissionSchema = new mongoose.Schema({
         default: "Pending",
     },
 
-    // For Farmer dashboard & Robot sim
+    // For Farmer dashboard & Robot simulation
     progress: { type: Number, default: 0 },
     speed: { type: Number, default: 1.2 },
     weeds: { type: Number, default: 0 },
