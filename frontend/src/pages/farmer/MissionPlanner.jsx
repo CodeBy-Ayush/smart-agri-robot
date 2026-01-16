@@ -1,4 +1,4 @@
-//Mission Planner
+
 import React, { useState } from 'react';
 import { Sprout, Scissors, CheckCircle, AlertCircle, MapPin } from 'lucide-react';
 import axios from 'axios';
