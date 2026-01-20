@@ -11,8 +11,8 @@ const menuItems = [
     { name: 'Overview', path: '/admin-dashboard', icon: <LayoutDashboard size={20} /> },
     { name: 'Mission Control', path: '/admin-dashboard/missions', icon: <ClipboardList size={20} /> },
     { name: 'User Management', path: '/admin-dashboard/users', icon: <Users size={20} /> },
-    { name: 'Global Fleet', path: '/admin-dashboard/robots', icon: <Activity size={20} /> }, // New
-  { name: 'Analytics', path: '/admin-dashboard/analytics', icon: <BarChart3 size={20} /> }, // New
+    { name: 'Global Fleet', path: '/admin-dashboard/robots', icon: <Activity size={20} /> }, 
+  { name: 'Analytics', path: '/admin-dashboard/analytics', icon: <BarChart3 size={20} /> }, 
 
 ];
 
