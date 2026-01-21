@@ -1,11 +1,11 @@
-# 🌱 Smart Agricultural Robot Automation System
+# 🌱 Smart Agricultural Robot Automation Systems
 
 A full-stack web application that automates agricultural missions using robotics and AI.  
 Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crops.
 
 -----------------------------------------------------------------------------------------------
 
-## 🚀 Feature
+## 🚀 Features
 
 ### 👨‍🌾 Farmer Module
 - Create missions (Planting, Weeding, Surveying)
