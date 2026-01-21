@@ -1,4 +1,4 @@
-// backend/routes/robotRoutes.js
+// backend/routes/robotRoutes
 const express = require("express");
 const router = express.Router();
 const { auth } = require("../middleware/auth");
@@ -8,9 +8,9 @@ const Robot = require("../models/Robot");
 const Notification = require("../models/Notification");
 
 
-// ------------------------------------------------------
+// -------------------------------------------------------
 // 1. FARMER ROBOT STATUS
-// ------------------------------------------------------
+// -------------------------------------------------------
 router.get("/status", auth, async (req, res) => {
     try {
         const farmerId = req.query.farmerId;
@@ -64,7 +64,7 @@ router.get("/active-mission", auth, async (req, res) => {
 
 
 // ------------------------------------------------------
-// 3. ROBOT DASHBOARD – MY ACTIVE MISSION + ROBOT
+// 3. ROBOT DASHBOARD – MY ACTIVE MISSION + ROBOTS
 // ------------------------------------------------------
 router.get("/my-active", auth, async (req, res) => {
     try {
