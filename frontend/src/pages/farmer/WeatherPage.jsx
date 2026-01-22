@@ -1,4 +1,4 @@
-//Weather Plan For Farming 
+//Weather Plan For Farming for farmer to see how it is good or not for any location
 import React, { useState, useEffect } from "react";
 import { CloudRain, Wind, Droplets, Thermometer, AlertTriangle, Calendar } from "lucide-react";
 import axios from "axios";
