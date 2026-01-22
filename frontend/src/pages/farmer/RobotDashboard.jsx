@@ -1,4 +1,3 @@
-//Robot Dashboard Simulation Done BY Frontend logic Only
 import React, { useState, useEffect, useRef } from "react";
 import {
   Bot,
