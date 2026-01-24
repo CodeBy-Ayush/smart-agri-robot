@@ -1,9 +1,7 @@
-// Sidebar For Farmer Dashboard
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { LayoutDashboard, CloudSun, Map, Bot, FileText, LogOut } from 'lucide-react';
 
-// ✅ Here { onLogout } prop received
 const Sidebar = ({ onLogout }) => {
   const location = useLocation();
   
