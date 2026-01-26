@@ -1,3 +1,4 @@
+//Weather Page Backend which use for fetching Weather from open weather
 const express = require("express");
 const axios = require("axios");
 const router = express.Router();
