@@ -1,4 +1,4 @@
-// backend/routes/robotRoutes----------
+// backend/routes/robotRoutes
 const express = require("express");
 const router = express.Router();
 const { auth } = require("../middleware/auth");
@@ -174,9 +174,9 @@ router.post("/mission-complete", auth, async (req, res) => {
 });
 
 
-// ------------------------------------------------------
+// -------------------------------------------------------
 // 6. ABORT MISSION (Emergency Stop)
-// ------------------------------------------------------
+// -------------------------------------------------------
 router.post("/abort-mission", auth, async (req, res) => {
     try {
         const { missionId } = req.body;
