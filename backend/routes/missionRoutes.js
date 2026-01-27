@@ -1,4 +1,3 @@
-//Routes of Mission
 const express = require("express");
 const router = express.Router();
 const Mission = require("../models/Mission");
@@ -25,7 +24,6 @@ router.post("/create", auth, async(req, res) => {
     }
 });
 
-// Get my missions (Farmer)
 router.get("/my", auth, async(req, res) => {
     try {
         const missions = await Mission.find({ farmer: req.user.id }).sort({ createdAt: -1 });
