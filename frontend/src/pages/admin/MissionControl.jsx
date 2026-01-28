@@ -1,4 +1,3 @@
-// frontend/src/pages/admin/MissionControl.jsx
 import React, { useState, useEffect } from "react";
 import {
   CheckCircle,
@@ -134,7 +133,7 @@ const MissionControl = () => {
               key={mission.id}
               className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-md transition-all flex flex-col md:flex-row items-center justify-between gap-6"
             >
-              {/* LEFT */}
+              {/* LEFT */}//--------------------------------------------------------------------------------------------------------------------------------------
               <div className="flex-1 space-y-2">
                 <div className="flex items-center gap-3">
                   <span
