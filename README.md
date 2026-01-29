@@ -1,7 +1,7 @@
 # 🌱 Smart Agricultural Robot Automation Systems
 
 A full-stack web application that automates agricultural missions using robotics and AI.  
-Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crops.
+Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crop.
 
 ------------------------------------------------------------------------------------------------
 
@@ -71,11 +71,11 @@ frontend/
 yaml
 Copy code
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clones the repository
 ```bash
 git clone https://github.com/your-username/smart-agri-robot.git
 cd smart-agri-robot
