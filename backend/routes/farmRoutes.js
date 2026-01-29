@@ -3,7 +3,7 @@ const router = express.Router();
 const FarmHealth = require("../models/FarmHealth");
 const Task = require("../models/Task");
 
-// GET /api/farm/health?farmerId=
+// GET /api/farm/health?farmerId
 router.get("/health", async(req, res) => {
     try {
         const farmerId = req.query.farmerId;
@@ -11,7 +11,7 @@ router.get("/health", async(req, res) => {
 
         let health = await FarmHealth.findOne({ farmer: farmerId });
 
-        // Agar nahi hai, ek default record bana do
+        // Agar nahi hai, ek default record bana do uske liye
         if (!health) {
             health = await FarmHealth.create({ farmer: farmerId });
         }
