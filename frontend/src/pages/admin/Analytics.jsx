@@ -1,4 +1,4 @@
-// frontend/src/pages/admin/Analytics.jsx
+// frontend/src/pages/admin/Analytics.jsx  represent a graph
 import React, { useEffect, useState } from "react";
 import {
   BarChart,
