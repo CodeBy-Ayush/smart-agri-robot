@@ -1,4 +1,3 @@
-// frontend/src/pages/admin/RobotFleet.jsx
 import React, { useEffect, useState } from "react";
 import { Bot, Battery, AlertTriangle, CheckCircle, MapPin, Plus } from "lucide-react";
 import axios from "axios";
