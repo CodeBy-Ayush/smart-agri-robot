@@ -1,5 +1,4 @@
-// Crop Recommendation Using gemini 
-//-------------------------------------------------------------------------------------------------------
+// Crop Recommendation Using gemini API KEY
 import React, { useState } from 'react';
 import { Sprout, Droplets, DollarSign, AlertTriangle, Leaf, CheckCircle, Loader2 } from 'lucide-react';
 import axios from "axios";
