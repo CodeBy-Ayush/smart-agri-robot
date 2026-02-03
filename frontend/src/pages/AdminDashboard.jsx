@@ -1,3 +1,4 @@
+//Admin Dashboard page.jsx
 import React, { useEffect, useState } from "react";
 import {
   Users,
@@ -88,6 +89,7 @@ export default function AdminDashboard() {
         </div>
 
         {/* Pending Missions */}
+        //------------------------------------------------------------------------------------------------
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
           <div className="p-4 bg-orange-100 text-orange-600 rounded-lg">
             <ClipboardList size={24} />
