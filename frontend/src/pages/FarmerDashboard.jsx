@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { CheckCircle, AlertTriangle, Clock } from "lucide-react";
 import axios from "axios";
-
+//------------------------------------------------------------------------------------
 export default function FarmerDashboard() {
   const [greeting, setGreeting] = useState("");
   const [weather, setWeather] = useState(null);
@@ -83,6 +83,7 @@ export default function FarmerDashboard() {
     }
   };
 //Load Mission
+  //----------------------------------------------------------------
   const loadActiveMission = async () => {
     try {
       const res = await axios.get(
