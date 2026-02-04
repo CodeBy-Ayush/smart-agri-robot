@@ -9,7 +9,6 @@ const Robot = require("../models/Robot");
 const Notification = require("../models/Notification");
 
 // ---------------- STATS (Admin Dashboard) ----------------
-// GET /api/admin/stats
 router.get("/stats", auth, isAdmin, async(req, res) => {
     try {
         const totalFarmers = await User.countDocuments({ role: "farmer" });
@@ -29,7 +28,6 @@ router.get("/stats", auth, isAdmin, async(req, res) => {
 });
 
 // ---------------- RECENT ACTIVITY (Admin Dashboard) ----------------
-// GET /api/admin/activity
 router.get("/activity", auth, isAdmin, async(req, res) => {
     try {
         const missions = await Mission.find()
@@ -78,7 +76,6 @@ router.get("/activity", auth, isAdmin, async(req, res) => {
 });
 
 // ---------------- MISSIONS LIST (for Mission Controls) ----------------
-// GET /api/admin/missions
 router.get("/missions", auth, isAdmin, async(req, res) => {
     try {
         const missions = await Mission.find()
@@ -110,7 +107,6 @@ router.get("/missions", auth, isAdmin, async(req, res) => {
 });
 
 // ---------------- UPDATE MISSION STATUS + AUTO ASSIGN ROBOT ---------------
-// PATCH /api/admin/missions/:id/status
 router.patch("/missions/:id/status", auth, isAdmin, async(req, res) => {
     try {
         const { id } = req.params;
