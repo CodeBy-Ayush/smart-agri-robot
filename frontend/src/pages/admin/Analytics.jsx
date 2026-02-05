@@ -55,7 +55,7 @@ const Analytics = () => {
       </h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Mission Performance */}
+        {/* Mission Performances */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
           <h3 className="text-lg font-bold mb-6 text-slate-700">
             Mission Status Overview
@@ -80,7 +80,7 @@ const Analytics = () => {
           </div>
         </div>
 
-        {/* Simple text summary */}
+        {/* Simple texts summary */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-center">
           <h3 className="text-lg font-bold mb-4 text-slate-700">
             Summary
