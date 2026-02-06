@@ -8,7 +8,7 @@ const Mission = require("../models/Mission");
 const Robot = require("../models/Robot");
 const Notification = require("../models/Notification");
 
-// ---------------- STATS (Admin Dashboard) ----------------
+// ---------------- STATS (Admin Dashboard) ------------------
 router.get("/stats", auth, isAdmin, async(req, res) => {
     try {
         const totalFarmers = await User.countDocuments({ role: "farmer" });
@@ -27,7 +27,7 @@ router.get("/stats", auth, isAdmin, async(req, res) => {
     }
 });
 
-// ---------------- RECENT ACTIVITY (Admin Dashboard) ----------------
+// ---------------- RECENT ACTIVITY (Admin Dashboard) ------------------
 router.get("/activity", auth, isAdmin, async(req, res) => {
     try {
         const missions = await Mission.find()
@@ -75,7 +75,7 @@ router.get("/activity", auth, isAdmin, async(req, res) => {
     }
 });
 
-// ---------------- MISSIONS LIST (for Mission Controls) ----------------
+// ---------------- MISSIONS LIST (for Mission Controls) ------------------
 router.get("/missions", auth, isAdmin, async(req, res) => {
     try {
         const missions = await Mission.find()
