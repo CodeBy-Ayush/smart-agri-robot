@@ -3,37 +3,37 @@
 A full-stack web application that automates agricultural missions using robotics and AI.  
 Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crops.
 
---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 
-## 🚀 Features
+## 🚀 Features:-
 
-### 👨‍🌾 Farmer Modules
+### 👨‍🌾 Farmer Module
 - Create missions (Planting, Weeding, Surveying)
 - Select field zones and priority
 - View active robot missions
 - Track mission progress in real-time
 
-### 🧑‍💼 Admin Modules
+### 🧑‍💼 Admin Module
 - View all submitted missions
 - Approve or reject missions
 - Auto-assign idle robots
 - Monitor system statistics
 
-### 🤖 Robot Simulations
+### 🤖 Robot Simulation
 - Grid-based robot movement
 - Battery consumption
 - Task execution (weeding/planting)
 - Live telemetry logs
 - Automatic mission completion
 
-### 🌾 AI Crop Recommendations
+### 🌾 AI Crop Recommendation
 - Uses Google Gemini AI
 - Soil-based crop prediction
 - Yield estimation
 - Fertilizer & water advice
 - Risk analysis
 
---------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
