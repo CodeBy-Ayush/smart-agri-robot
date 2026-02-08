@@ -1,4 +1,4 @@
-//MongoDb Connection
+//MongoDb Connection from atlas
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
