@@ -1,4 +1,3 @@
-//Admin SideBar Layout and design
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { LayoutDashboard, Users, ClipboardList, Activity, Settings, LogOut,BarChart3 } from 'lucide-react';
