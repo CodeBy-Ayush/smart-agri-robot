@@ -1,3 +1,4 @@
+//Sidebar of farmer
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { LayoutDashboard, CloudSun, Map, Bot, FileText, LogOut } from 'lucide-react';
