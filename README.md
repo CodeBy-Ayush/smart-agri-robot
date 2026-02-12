@@ -3,7 +3,7 @@
 A full-stack web application that automates agricultural missions using robotics and AI.  
 Farmers can plan missions, admins approve them, robots execute tasks, and AI recommends crops.
 
----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 ## 🚀 Features:-
 
@@ -35,7 +35,7 @@ Farmers can plan missions, admins approve them, robots execute tasks, and AI rec
 
 ------------------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stacks
 
 ### Frontend
 - React.js
@@ -68,7 +68,7 @@ frontend/
 ├── public/
 └── package.json
 
-------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 ## ⚙️ Installation & Setup
 
