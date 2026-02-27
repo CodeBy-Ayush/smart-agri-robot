@@ -8,10 +8,10 @@ const Sidebar = ({ onLogout }) => {
   
   const menuItems = [
     { name: 'Dashboard', path: '/farmer', icon: <LayoutDashboard size={20} /> },
-    { name: 'Mission Planner', path: '/farmer/missions', icon: <Map size={20} /> }, // Future page
-    { name: 'Weather', path: '/farmer/weather', icon: <CloudSun size={20} /> },     // Future page
-    { name: 'Robot Status', path: '/farmer/robot', icon: <Bot size={20} /> },       // Future page
-    { name: 'Crop Rec.', path: '/farmer/crops', icon: <FileText size={20} /> },     // Future page
+    { name: 'Mission Planner', path: '/farmer/missions', icon: <Map size={20} /> }, // Future pages
+    { name: 'Weather', path: '/farmer/weather', icon: <CloudSun size={20} /> },     // Future pages
+    { name: 'Robot Status', path: '/farmer/robot', icon: <Bot size={20} /> },       // Future pages
+    { name: 'Crop Rec.', path: '/farmer/crops', icon: <FileText size={20} /> },     // Future pages
   ];
 
   return (
@@ -36,7 +36,7 @@ const Sidebar = ({ onLogout }) => {
       </nav>
 
       <div className="border-t border-slate-700 pt-4 mt-auto">
-        {/* ✅ Here onClick={onLogout} add  */}
+        {/*----------- ✅ Here onClick={onLogout} add -------------- */}
         <button 
           onClick={onLogout}
           className="flex w-full items-center gap-3 p-3 text-red-400 hover:bg-slate-800 hover:text-red-300 rounded-lg transition-colors"
