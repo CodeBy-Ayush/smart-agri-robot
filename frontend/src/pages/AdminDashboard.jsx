@@ -1,4 +1,3 @@
-//Admin Dashboard page.jsx
 import React, { useEffect, useState } from "react";
 import {
   Users,
@@ -71,7 +70,7 @@ export default function AdminDashboard() {
         </span>
       </div>
 
-      {/* Stats of Farmer */}
+      {/* Stats of Farmers */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* Total Farmers */}
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex items-center gap-4">
