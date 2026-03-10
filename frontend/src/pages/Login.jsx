@@ -1,4 +1,4 @@
-//Login Pages for register
+//Login Pages for register for farmers and admin
 import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
