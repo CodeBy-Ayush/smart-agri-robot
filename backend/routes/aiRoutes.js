@@ -36,7 +36,7 @@ router.post("/recommend-crop", async(req, res) => {
         // Remove ```json or ```
         text = text.replace(/```json/g, "").replace(/```/g, "");
 
-        // Extract JSON
+        // Extract JSON-----------------
         const start = text.indexOf("{");
         const end = text.lastIndexOf("}");
         const jsonString = text.substring(start, end + 1);
