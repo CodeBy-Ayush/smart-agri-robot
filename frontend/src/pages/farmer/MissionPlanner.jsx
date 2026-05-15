@@ -13,7 +13,7 @@ const MissionPlanner = () => {
 
   const gridSize = 25;
 
-  // Toggle Zone
+  // Toggle Zones
   const toggleCell = (index) => {
     if (selectedCells.includes(index)) {
       setSelectedCells(selectedCells.filter((i) => i !== index));
@@ -22,7 +22,7 @@ const MissionPlanner = () => {
     }
   };
 
-  // -----------------------
+  // -----------------------------------
   // ⭐ FINAL SUBMIT FUNCTION----------
   // -----------------------
   const handleSubmit = async () => {
